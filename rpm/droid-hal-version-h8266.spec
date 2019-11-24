@@ -1,5 +1,5 @@
 %define device akari
-%define rpm_device h8216
+%define rpm_device h8266
 
 %define device_pretty Xperia XZ2
 
