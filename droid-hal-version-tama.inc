@@ -13,8 +13,10 @@ BuildRequires: droid-config-%{rpm_device}-preinit-plugin
 BuildRequires: droid-config-%{rpm_device}-pulseaudio-settings
 BuildRequires: droid-config-%{rpm_device}-sailfish
 # Shared between the adaptations
-BuildRequires: droid-hal-akari
-BuildRequires: droid-hal-akari-img-boot
-BuildRequires: droid-hal-akari-img-recovery
-BuildRequires: droid-hal-akari-kernel
-BuildRequires: droid-hal-akari-tools
+BuildRequires: droid-hal-%{device}
+BuildRequires: droid-hal-%{device}-img-boot
+BuildRequires: droid-hal-%{device}-img-recovery
+BuildRequires: droid-hal-%{device}-kernel
+BuildRequires: droid-hal-%{device}-tools
+
+%include droid-hal-version/droid-hal-version.inc
