@@ -18,5 +18,3 @@ BuildRequires: droid-hal-%{device}-img-boot
 BuildRequires: droid-hal-%{device}-img-recovery
 BuildRequires: droid-hal-%{device}-kernel
 BuildRequires: droid-hal-%{device}-tools
-
-%include droid-hal-version/droid-hal-version.inc

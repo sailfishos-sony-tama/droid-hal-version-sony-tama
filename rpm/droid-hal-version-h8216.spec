@@ -4,4 +4,4 @@
 %define device_pretty Xperia XZ2
 
 %include droid-hal-version-tama.inc
-
+%include droid-hal-version/droid-hal-version.inc
